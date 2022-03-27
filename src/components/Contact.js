@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="formulario">
               <form className="form" id="my-form" action="https://formspree.io/f/xgerkjon" method="POST">
                 <input type="email" placeholder="Email" name="email" required />
-                <textarea placeholder="Mensagem" name="message" required defaultValue={""} />
+                <textarea placeholder="Message me" name="message" required defaultValue={""} />
                 <input id="submit" type="submit" />
                 <p id="my-form-status" />
               </form>
